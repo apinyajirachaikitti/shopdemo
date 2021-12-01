@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container"> <a class="navbar-brand text-primary" href="#">
+        <img src="logo.png">
+        <b> A BO'LE OF WA'ER </b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">FAQ</a> </li>
+        </ul> <a class="btn btn-outline-primary" href="#">Add to cart <i class="fa fa-shopping-cart fa-fw"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-center text-md-right" style="background-image: url(&quot;https://static.pingendo.com/cover-bubble-dark.svg&quot;); background-position: right bottom; background-size: cover; background-repeat: repeat; background-attachment: fixed;">
+    <div class="container">
+      <div class="row">
+        <h1> PRODUCT IN CART </h1>
+      </div>
+    </div>
+  </div>
+  <div class="contianer" style="margin-top: 30px;" v-if="product_page">
+    <hr>
+    <div class="home container">
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg" width="50%">
+        </div>
+        <div class="col-md-4">
+          <div class="col">
+            <h4> PRODUCT NAME</h4>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="col">
+            <h4> PRICE</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg" width="50%">
+        </div>
+        <div class="col-md-4" draggable="true">
+          <div class="col"> ONE-LITRE BOTTLE <br><input type="number" class="count" name="qty" value="1"> <br> REMOVE <img src="no.png" width="5%"></div>
+        </div>
+        <div class="col-md-2">
+          <div class="col" style=""> 200 BAHT</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6"><img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg" width="50%">
+        </div>
+        <div class="col-md-4">
+          <div class="col"> TWO-LITRE BOTTLE <br><input type="number" class="count" name="qty" value="1"><br> REMOVE <img src="no.png" width="5%"> </div>
+        </div>
+        <div class="col-md-2">
+          <div class="col"> 150 BAHT</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 text-center text-md-right" style="background-image: url(&quot;https://static.pingendo.com/cover-bubble-dark.svg&quot;); background-position: right bottom; background-size: cover; background-repeat: repeat; background-attachment: fixed;">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex align-items-center"> <i class="d-block fa fa-stop-circle fa-2x mr-md-5 text-primary"></i>
+          <ul class="nav mx-md-auto d-flex justify-content-center">
+            <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Contact us</a> </li>
+            <li class="nav-item" draggable="true"> <a class="nav-link" href="#">About</a> </li>
+          </ul>
+          <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2">
+              <a href="#">
+                <i class="d-block fa fa-facebook-official text-muted fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-instagram text-muted fa-lg mx-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mt-2 mb-0">© 2014-2018 Pingendo. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
